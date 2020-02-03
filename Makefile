@@ -30,3 +30,6 @@ github:
 	./scripts/build-release
 	./scripts/github-release
 	./scripts/github-upload
+
+
+.PHONY: all ctags docs debug push dev release github
